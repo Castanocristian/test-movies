@@ -57,7 +57,7 @@ test('POST /movies/:id/directors Actualiza el director de una pelicula ', async 
         firstName: "Jon",
         lastName: "Favreau",
         nationality: "Usa",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Jon_Favreau_Deauville_2014.jpg/220px-Jon_Favreau_Deauville_2014.jpg",
+        image: "http://image.png",
         birthday: 2010
     })
     const res = await request(app)
